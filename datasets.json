@@ -1,0 +1,248 @@
+{
+  "intents": [
+    {
+      "tag": "sapaan",
+      "patterns": [
+        "Halo",
+        "Hai",
+        "Selamat pagi",
+        "Selamat siang",
+        "Selamat sore",
+        "Apa kabar?",
+        "Assalamualaikum"
+      ],
+      "responses": [
+        "Halo, selamat datang! Bagaimana saya bisa membantu Anda hari ini?",
+        "Hai! Semoga hari Anda menyenangkan. Ada yang bisa saya bantu terkait kesehatan mental?",
+        "Selamat datang! Silakan ceritakan perasaan atau pertanyaan Anda."
+      ]
+    },
+    {
+      "tag": "perpisahan",
+      "patterns": [
+        "Selamat tinggal",
+        "Dadah",
+        "Sampai jumpa",
+        "Bye",
+        "Terima kasih, sampai nanti"
+      ],
+      "responses": [
+        "Selamat tinggal, jaga kesehatan mental Anda!",
+        "Sampai jumpa! Ingat Anda tidak sendirian.",
+        "Jika perlu, jangan ragu untuk kembali berbicara kapan saja."
+      ]
+    },
+    {
+      "tag": "dukungan_krisis",
+      "patterns": [
+        "Saya ingin menyakiti diri sendiri",
+        "Saya berpikir untuk bunuh diri",
+        "Tidak tahan lagi",
+        "Tidak ada harapan",
+        "Tolong selamatkan saya"
+      ],
+      "responses": [
+        "Saya sangat khawatir dengan Anda. Silakan hubungi 1198 (Hotline Kemenkes) atau 021-500454 (Into the Light) segera.",
+        "Anda sangat berharga. Segera hubungi layanan darurat atau teman terdekat."
+      ]
+    },
+    {
+      "tag": "serangan_panik",
+      "patterns": [
+        "Saya mengalami serangan panik",
+        "Jantung berdebar kencang",
+        "Sulit bernapas",
+        "Merasa akan pingsan",
+        "Tangan gemetar"
+      ],
+      "responses": [
+        "Coba fokus pada pernapasan: tarik napas 4 hitungan, tahan 4 hitungan, hembuskan 6 hitungan. Ulangi sampai tenang.",
+        "Anda aman. Ini akan berlalu. Fokus pada objek di sekitar Anda dan deskripsikan dalam hati."
+      ]
+    },
+    {
+      "tag": "trauma",
+      "patterns": [
+        "Saya mengalami trauma masa kecil",
+        "Mimpi buruk terus menerus",
+        "Teringat kejadian traumatis",
+        "Tidak bisa melupakan masa lalu",
+        "PTSD"
+      ],
+      "responses": [
+        "Pemulihan trauma membutuhkan proses. EMDR dan terapi kognitif bisa membantu. Maukah Anda mencari profesional?",
+        "Trauma bukan kesalahan Anda. Ruang aman dan dukungan sosial penting untuk penyembuhan."
+      ]
+    },
+    {
+      "tag": "gangguan_bipolar",
+      "patterns": [
+        "Suasana hati naik turun drastis",
+        "Kadang sangat energik kadang depresi",
+        "Diagnosis bipolar",
+        "Mania dan depresi bergantian"
+      ],
+      "responses": [
+        "Bipolar disorder membutuhkan penanganan profesional. Obat dan terapi bisa membantu menstabilkan mood.",
+        "Buat catatan mood harian dan komunikasikan dengan psikiater untuk penanganan terbaik."
+      ]
+    },
+    {
+      "tag": "kecemasan_sosial",
+      "patterns": [
+        "Takut dihakimi orang lain",
+        "Gugup di keramaian",
+        "Tidak bisa bicara di depan umum",
+        "Merasa diamati terus",
+        "Hindari pertemuan sosial"
+      ],
+      "responses": [
+        "Terapi eksposur bertahap dan CBT efektif untuk kecemasan sosial. Mau coba latihan pernapasan dulu?",
+        "Perasaan ini umum terjadi. Mulailah dari interaksi kecil dan rayakan setiap keberhasilan."
+      ]
+    },
+    {
+      "tag": "masalah_tidur_mental",
+      "patterns": [
+        "Sulit tidur karena overthinking",
+        "Mimpi buruk terus",
+        "Tidur tidak nyenyak",
+        "Terbangun tengah malam cemas"
+      ],
+      "responses": [
+        "Coba teknik 'worry time' - sisihkan 30 menit di siang hari untuk menulis kekhawatiran, lalu simpan.",
+        "Relaksasi otot progresif sebelum tidur bisa membantu. Mau saya pandu?"
+      ]
+    },
+    {
+      "tag": "afirmasi_positif",
+      "patterns": [
+        "Saya butuh kata penyemangat",
+        "Berikan afirmasi positif",
+        "Tolong ingatkan saya hal baik",
+        "Saya merasa tidak berharga"
+      ],
+      "responses": [
+        "Anda lebih kuat dari yang Anda kira. Setiap langkah kecil adalah pencapaian.",
+        "Anda berharga apa adanya. Proses Anda valid dan penting."
+      ]
+    },
+    {
+      "tag": "dukungan_hewan",
+      "patterns": [
+        "Apakah hewan peliharaan membantu mental?",
+        "Terapi dengan hewan",
+        "Kucing membantu depresi",
+        "Emotional support animal"
+      ],
+      "responses": [
+        "Hewan peliharaan bisa mengurangi stres dan rasa kesepian. Interaksi dengan mereka melepas oksitosin.",
+        "ESAs (Emotional Support Animals) bisa menjadi bagian dari treatment. Konsultasikan dengan profesional."
+      ]
+    },
+    {
+      "tag": "jurnal_mental",
+      "patterns": [
+        "Bagaimana cara menulis jurnal?",
+        "Manfaat journaling untuk mental",
+        "Teknik mengekspresikan perasaan",
+        "Terapi menulis"
+      ],
+      "responses": [
+        "Coba tulis bebas 10 menit sehari tanpa menyensor. Fokus pada emosi bukan kejadian.",
+        "Jurnal gratitude: tulis 3 hal yang Anda syukuri tiap hari. Bisa tingkatkan mood."
+      ]
+    },
+    {
+      "tag": "kehilangan_duka",
+      "patterns": [
+        "Bagaimana mengatasi kesedihan?",
+        "Tidak bisa move on dari kehilangan",
+        "Berduka berkepanjangan",
+        "Sakit hati karena putus"
+      ],
+      "responses": [
+        "Duka butuh waktu. Izinkan diri merasakan semua emosi tanpa menghakimi.",
+        "Ritual perpisahan seperti menulis surat bisa membantu proses penerimaan."
+      ]
+    },
+    {
+      "tag": "kesepian",
+      "patterns": [
+        "Merasa kesepian terus menerus",
+        "Tidak punya teman bicara",
+        "Sendiri di keramaian",
+        "Terkucil secara sosial"
+      ],
+      "responses": [
+        "Kesepian adalah sinyal tubuh butuh koneksi. Coba komunitas dengan minat serupa secara online/offline.",
+        "Bersosialisasi bisa dimulai dari hal kecil seperti menyapa tetangga atau ikut kelas hobi."
+      ]
+    },
+    {
+      "tag": "jenis_terapi",
+      "patterns": [
+        "Apa perbedaan CBT dan DBT?",
+        "Terapi psikologis apa yang cocok?",
+        "Jenis-jenis psikoterapi",
+        "Terapi untuk anxiety"
+      ],
+      "responses": [
+        "CBT fokus pada pola pikir, DBT pada regulasi emosi. Psikolog bisa membantu menentukan yang tepat.",
+        "Terapi seni, musik, atau kelompok juga bisa menjadi pilihan tergantung kebutuhan."
+      ]
+    },
+    {
+      "tag": "mindfulness_lanjut",
+      "patterns": [
+        "Teknik grounding",
+        "Apa itu body scan?",
+        "Latihan kesadaran penuh",
+        "Mindfulness untuk trauma"
+      ],
+      "responses": [
+        "Grounding 5-4-3-2-1: Sebutkan 5 hal yang dilihat, 4 yang diraba, 3 didengar, 2 dicium, 1 dirasa.",
+        "Body scan: fokuskan perhatian secara sistematis dari ujung kaki ke kepala, lepaskan ketegangan."
+      ]
+    },
+    {
+      "tag": "aplikasi_mental",
+      "patterns": [
+        "Rekomendasi aplikasi kesehatan mental",
+        "Meditasi digital",
+        "Track mood harian",
+        "Terapi online"
+      ],
+      "responses": [
+        "Coba aplikasi seperti Mindtera (lokal), Headspace, atau Calm. Untuk komunitas bisa coba Into the Light.",
+        "Aplikasi Riliv menyediakan meditasi dan konseling. Sesuaikan dengan kebutuhan Anda."
+      ]
+    },
+    {
+      "tag": "batasan_sehat",
+      "patterns": [
+        "Bagaimana menolak tanpa merasa bersalah?",
+        "Tidak bisa bilang tidak",
+        "People pleaser",
+        "Kehabisan energi sosial"
+      ],
+      "responses": [
+        "Batas yang sehat itu perlu. Coba mulai dengan kalimat: 'Maaf, saya belum bisa...' tanpa berlebihan menjelaskan.",
+        "Anda berhak mengatakan tidak. Hubungan sehat saling menghargai batasan."
+      ]
+    },
+    {
+      "tag": "harga_diri",
+      "patterns": [
+        "Bagaimana meningkatkan percaya diri?",
+        "Merasa tidak mampu",
+        "Membandingkan diri dengan orang",
+        "Tidak percaya diri"
+      ],
+      "responses": [
+        "Fokus pada kekuatan Anda. Buat daftar 5 kemampuan atau pencapaian, sekecil apapun.",
+        "Perlakukan diri seperti sahabat terbaik. Apa yang akan Anda katakan padanya?"
+      ]
+    }
+  ]
+}

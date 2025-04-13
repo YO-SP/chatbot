@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MentalCare - Chatbot Kesehatan Mental</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/base.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <button class="toggle-button" id="toggleModeBtn">
+      🌙 Dark Mode
+    </button>
+    
+    <div class="bg-illustration">
+      <svg
+        viewBox="0 0 500 500"
+        preserveAspectRatio="xMidYMid meet"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle
+          cx="120"
+          cy="120"
+          r="100"
+          fill="var(--accent)"
+          stroke="var(--border)"
+          stroke-width="4"
+        />
+        <rect
+          x="200"
+          y="300"
+          width="180"
+          height="120"
+          rx="20"
+          fill="var(--accent)"
+          stroke="var(--border)"
+          stroke-width="4"
+        />
+        <path
+          d="M 350 100 C 370 150, 400 180, 420 120"
+          fill="none"
+          stroke="var(--border)"
+          stroke-width="5"
+        />
+        <circle
+          cx="260"
+          cy="180"
+          r="20"
+          fill="var(--card-bg)"
+          stroke="var(--border)"
+          stroke-width="3"
+        />
+        <circle
+          cx="310"
+          cy="180"
+          r="20"
+          fill="var(--card-bg)"
+          stroke="var(--border)"
+          stroke-width="3"
+        />
+      </svg>
+    </div>
+    
+    <div class="container">
+      <div class="left">
+        <h1>MentalCare</h1>
+        <p>
+          Tempat aman untuk berbicara dan memahami kondisi kesehatan mental
+          Anda. Kami hadir melalui chatbot dan kuis yang dirancang untuk
+          membantu Anda lebih mengenal diri sendiri.
+        </p>
+      </div>
+      <div class="right">
+        <div class="card" onclick="location.href='/chatbot'">
+          <h2>Mulai Chatbot</h2>
+          <p>
+            Berbicara dengan chatbot untuk mendapatkan dukungan emosional dan
+            pemahaman.
+          </p>
+        </div>
+        <div class="card" onclick="location.href='/quiz'">
+          <h2>Kuis Mental</h2>
+          <p>
+            Ikuti kuis singkat untuk mengecek kondisi kesehatan mental Anda
+            secara mandiri.
+          </p>
+        </div>
+      </div>
+    </div>
+    
+    <script src="/script.js"></script>
+  </body>
+</html>

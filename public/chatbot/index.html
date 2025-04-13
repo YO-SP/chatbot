@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chatbot - MentalCare</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/base.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <button class="toggle-button" id="toggleModeBtn">🌙 Dark Mode</button>
+
+    <div class="chatbot-container">
+      <h1>Chatbot MentalCare</h1>
+      <p>
+        Bicara dengan teman virtual kami dan dapatkan dukungan untuk masalah
+        kesehatan mental Anda
+      </p>
+
+      <div class="chat-box" id="chatBox">
+        <!-- Chat log -->
+      </div>
+
+      <form id="chatForm">
+        <input
+          type="text"
+          id="userInput"
+          placeholder="Tulis pesan Anda di sini..."
+          required
+        />
+        <button type="submit">Kirim</button>
+      </form>
+
+      <a href="/landing-page">← Kembali ke Beranda</a>
+    </div>
+
+    <script src="chat.js"></script>
+    <script src="/script.js"></script>
+  </body>
+</html>
